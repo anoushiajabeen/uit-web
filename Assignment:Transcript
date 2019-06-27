@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STUDENT'S TRANSCRIPT</title>
+</head>
+<body>
+	<table align="center" cellspacing="5" cellpadding="3" border="2" width="80%" bordercolor="black">
+		<tr align="center" bgcolor="grey">
+			<td colspan="4">
+				<h1><b>INSTITUTE OF BUSINESS MANAGEMENT</b><h1>
+			</td>
+
+		</tr>
+        <tr align="center">
+			<td colspan="4">
+				<h3><b>UNOFFICIAL TRANSCRIPT</b></h3>
+			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="4">
+				<h3><b>BS (COMPUTER SCIENCE)</b></h3>
+			</td>
+		</tr>
+		
+		<tr align="center">
+			<td width="20%">
+				<h4><b>STD_ID:20181-24324</b><h4>
+			</td>
+			<td width="20%"><h4><b>NAME: ANOUSHIA JABEEN</b></h4></td>
+			<td width="20%"><h4><b>ENROLLED: SEPTEMBER 2018</b></h4></td>
+			<td width="20%"><h4><b>SEMESTER: SPRING 2019</b></h4></td>
+		</tr>
+		
+		<tr align="center" bgcolor="Sky blue">
+			<td><b>COURSE CODE</b></td>
+			<td><b>COURSE TITLE</b></td>
+			<td><b>CR.HR.</b></td>
+			<td><b>GRADE</b></td>
+		</tr>
+		<tr>
+			<td align="center">COM101</td>
+			<td >INTRO. TO INFO. & COMMUNICATION TECHNOLOGY</td>
+			<td align="center">3+0</td>
+			<td align="center">B</td>
+		</tr>
+		<tr>
+			<td align="center">ENG199</td>
+			<td>ACADEMIC ENGLISH</td>
+			<td align="center">3+0</td>
+			<td align="center">A-</td>
+		</tr>
+		<tr>
+			<td align="center">ISL112</td>
+			<td>ISLAMIC STUDIES</td>
+			<td align="center">3+0</td>
+			<td align="center">A</td>
+		</tr>
+		<tr>
+			<td align="center">CSC111</td>
+			<td>BASIC ELECTRONICS</td>
+			<td align="center">2+1</td>
+			<td align="center">B-</td>
+		</tr>
+		<tr>
+			<td align="center">MTH104</td>
+			<td>CALCULUS</td>
+			<td align="center">3+0</td>
+			<td align="center">C</td>
+		</tr>
+		<tr>
+			<td align="center">CSC102</td>
+			<td>INTRO. TO C LANGUAGE</td>
+			<td align="center">2+1</td>
+			<td align="center">B-</td>
+		</tr>
+		<tr align="right" bgcolor="pink">
+			<td colspan="4"><b>CGPA= 3.22</b></td>
+		</tr>
+
+
+
+
+
+
+	</table>
+	
+
+</body>
+</html>
