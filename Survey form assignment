@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Website Survery Questionnaire</title>
+</head>
+
+<body>
+	<form method="post" action="">
+		<h1 align="center">Website Survery Questionnaire</h1>
+		<p style="text-align: left;">Thank you for taking the time to answer these questions. The following questions are about to know how well known and successful is [Site Name]</p>
+		<hr width="100%" align="left">
+
+		<div>
+			<label><b>1. Have you ever heard about [Site Name]?</b></label><br><br>
+			<input type="radio" name="user_yesno" value="yes">Yes<br>
+			<input type="radio" name="user_yesno" value="no">No
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>2. How did you learn about [Site Name]?</b></label><br><br>
+			<select name="user_select">
+			<option value="">Choose here</option>	
+			<option value="Friend or relative">Friend or Relative</option>
+			<option value="Web search engine">Web search engine</option>
+			<option value="Banner Ad">Banner Ad</option>
+			<option value="Magazine">Magazine</option>
+			<option value="E-mail">E-mail</option>
+			<option value="Pop-up">Pop-up</option>
+			<option value="and other">Other</option>
+			</select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>3. Do you purchase goods from [Site Name]?</b></label><br><br>
+			<input type="radio" name="user_yes_no" value="yes">Yes<br>
+			<input type="radio" name="user_yes_no" value="no">No
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>4. How old are you?</b></label><br><br>
+			<input type="radio" name="user_age" value="Under 18">Under 18<br>
+			<input type="radio" name="user_age" value="18-25">18-25<br>
+			<input type="radio" name="user_age" value="25-45">25-45<br>
+			<input type="radio" name="user_age" value="45 above">45 above
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>5. Gender?</b></label><br><br>
+			<select name="user_gender">
+			<option value="">Choose here</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>	
+			</select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>6. How often do you visit our website?</b></label><br><br>
+			<select name="user_visit">
+			<option value="">Choose here</option>	
+			<option value="daily">Daily</option>
+			<option value="once a week">Once a week</option>
+			<option value="once a month">Once a month</option>
+			<option value="once a year">Once a year</option>
+			<option value="never">Never</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>7. Overall, how satisfied are you with our website?</b></label><br><br>
+			<select name="user_satisfy">
+			<option value="">Choose here</option>	
+			<option value="daily">Daily</option>
+			<option value="once a week">Once a week</option>
+			<option value="once a month">Once a month</option>
+			<option value="once a year">Once a year</option>
+			<option value="never">Never</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>8. How likely would you be to recommend [Your Website Name] to your friends or colleagues?</b></label><br><br>
+			<select name="user_recom">
+			<option value="">Choose here</option>
+			<option value="Very unlikely">Very unlikey</option>
+			<option value="neutral">Neutral</option>
+			<option value="Very likely">Very likely</option>	
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>9. What particular aspect(s) of our website do you like?</b></label><br><br>
+			<textarea name="user_like" cols="45" rows="6"></textarea>
+		</div>
+		<br><br>
+
+        <div>
+			<label><b>10. What particular aspect(s) of our website do you dislike?</b></label><br><br>
+			<textarea name="user_unlike" cols="45" rows="6"></textarea>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>11. What factors motivated you to purchase on our site?</b></label><br><br>
+			<select name="user_moto">
+			<option value="">Choose here</option>
+			<option value="price">Price</option>
+			<option value="description of itme">Description of itme</option>
+			<option value="brand name">Brand Name</option>	
+			<option value="recommendation">Recommendation</option>
+			<option value="shipping options">Shipping options</option>
+			<option value="payment options">Payment options</option>
+			<option value="other">other</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>12. Why do you think our site is so successful?</b></label><br><br>
+			<select name="user_success">
+			<option value="">Choose here</option>
+			<option value="image">Image</option>
+			<option value="Reputation">Reputation</option>
+			<option value="easy to use">Easy to use</option>	
+			<option value="Fun">Fun</option>
+			<option value="Large selection of itmes">Large selection of items</option>
+			<option value="Payment options(paypal)">payment option (paypal)</option>
+			<option value="safety">safety</option>
+			<option value="free registration">free registration</option>
+			<option value="website design">website design</option>
+			<option value="other">other</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>13. What is the main reason you visit our website?</b></label><br><br>
+			<select name="user_reason">
+			<option value="">Choose here</option>
+			<option value="browsing">Browsing</option>
+			<option value="Particular item">Particular item</option>
+			<option value="comparision of prices">Comparision of prices</option>
+			<option value="other">Other</option>	
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>14. How easy it to navigate our website?</b></label><br><br>
+			<select name="user_navi">
+			<option value="">Choose here</option>
+			<option value="very easy">very easy</option>
+			<option value="somewhat easy">somewhat easy</option>
+			<option value="easy">easy</option>	
+			<option value="somewhat difficult">somewhat difficult</option>
+			<option value="difficult">difficult</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>15. How often do you buy on our site?</b></label><br><br>
+			<select name="user_buy">
+			<option value="">Choose here</option>	
+			<option value="daily">Daily</option>
+			<option value="once a week">Once a week</option>
+			<option value="twice a week">Twice a week</option>
+			<option value="once a month">Once a month</option>
+			<option value="twice a month">Twice a month</option>
+			<option value="once a year">Once a year</option>
+			<option value="never">Never</option>
+		    </select>
+			
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>16. Was this a personal purchase for you, a gift, a company purchase or something else?</b></label><br><br>
+			<select name="user_personal">
+			<option value="">Choose here</option>
+			<option value="personal">personal</option>
+			<option value="gift">gift</option>
+			<option value="company purchase">company purchase</option>	
+			<option value="other">other</option>
+		    </select>
+		</div>
+		<br><br>
+
+		<div>
+			<label><b>17. How do you pay your purchase?</b></label><br><br>
+			<input type="radio" name="user_pur" value="credit card online">credit card online<br>
+			<input type="radio" name="user_pur" value="cheque by mail">cheque by mail<br>
+			<input type="radio" name="user_pur" value="paypal">paypal<br>
+			<input type="radio" name="user_pur" value="nochex">nochex<br>
+			<input type="radio" name="user_pur" value="other">other
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>18. How satisfied were you with the available shipping option?</b></label><br><br>
+			<select name="user_avail">
+			<option value="">Choose here</option>
+			<option value="very satisfied">very satisfied</option>
+			<option value="somewhat satisfied">somewhat satisfied</option>
+			<option value="satisfied">satisfied</option>	
+			<option value="somewhat dissatified">somewhat dissatisfied</option>
+			<option value="very dissatisfied">very dissatisfied</option>
+		    </select>
+			
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>19. Was your order complete when you received it?</b></label><br><br>
+			<select name="user_return">
+			<option value="">Choose here</option>
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		    </select>
+			
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>20. Did you return any items you purchased from us?</b></label><br><br>
+			<select name="user_return">
+			<option value="">Choose here</option>
+			<option value="yes">yes</option>
+			<option value="no">no</option>	
+		    </select>
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>21. What was the main reason for your return?</b></label><br><br>
+			<input type="radio" name="user_ret" value="wrong size">wrong size<br>
+			<input type="radio" name="user_ret" value="wrong colour">wrong colour<br>
+			<input type="radio" name="user_ret" value="not what I ordered">not what I ordered<br>
+			<input type="radio" name="user_ret" value="damaged">damaged<br>
+			<input type="radio" name="user_ret" value="not satisfied">not satisfied<br>
+			<input type="radio" name="user_ret" value="other">other
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>22. How satisfied were you with the return process?</b></label><br><br>
+			<select name="user_satisifed">
+			<option value="">Choose here</option>
+			<option value="very satisfied">very satisfied</option>
+			<option value="somewhat satisfied">somewhat satisfied</option>
+			<option value="satisfied">satisfied</option>	
+			<option value="somewhat dissatified">somewhat dissatisfied</option>
+			<option value="very dissatisfied">very dissatisfied</option>
+		    </select>
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>23. Please rank what you look for in order of importance when selecting products on [Site Name]?</b></label><br><br>
+			<table cellpadding="3" cellspacing="0" border="3">
+				<tr align="center">
+					<td></td>
+					<td bgcolor="grey">1-Not important</td>
+					<td bgcolor="grey">2</td>
+					<td bgcolor="grey">3-maybe</td>
+					<td bgcolor="grey">4</td>
+					<td bgcolor="grey">5-very important</td>
+				</tr>
+
+				<tr align="center">
+					<td bgcolor="grey">Quality</td>
+					<td>
+						<input type="radio" name="user_imp">
+					</td>
+					<td>
+						<input type="radio" name="user_imp">
+					</td>
+					<td>
+						<input type="radio" name="user_imp">
+					</td>
+					<td>
+						<input type="radio" name="user_imp">
+					</td>
+					<td>
+						<input type="radio" name="user_imp">
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td bgcolor="grey">Cost</td>
+					<td>
+						<input type="radio" name="user_cost">
+					</td>
+					<td>
+						<input type="radio" name="user_cost">
+					</td>
+					<td>
+						<input type="radio" name="user_cost">
+					</td>
+					<td>
+						<input type="radio" name="user_cost">
+					</td>
+					<td>
+						<input type="radio" name="user_cost">
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td bgcolor="grey">Quantity</td>
+					<td>
+						<input type="radio" name="user_quat">
+					</td>
+					<td>
+						<input type="radio" name="user_quat">
+					</td>
+					<td>
+						<input type="radio" name="user_quat">
+					</td>
+					<td>
+						<input type="radio" name="user_quat">
+					</td>
+					<td>
+						<input type="radio" name="user_quat">
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td bgcolor="grey">Brand name</td>
+					<td>
+						<input type="radio" name="user_brand">
+					</td>
+					<td>
+						<input type="radio" name="user_brand">
+					</td>
+					<td>
+						<input type="radio" name="user_brand">
+					</td>
+					<td>
+						<input type="radio" name="user_brand">
+					</td>
+					<td>
+						<input type="radio" name="user_brand">
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td bgcolor="grey">Familiarity</td>
+					<td>
+						<input type="radio" name="user_fim">
+					</td>
+					<td>
+						<input type="radio" name="user_fim">
+					</td>
+					<td>
+						<input type="radio" name="user_fim">
+					</td>
+					<td>
+						<input type="radio" name="user_fim">
+					</td>
+					<td>
+						<input type="radio" name="user_fim">
+					</td>
+				</tr>
+			</table>
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>24. How competitive do you find the prices on [Site Name]?</b></label><br><br>
+			<select name="user_competi">
+			<option value="">Choose here</option>
+			<option value="very competitive">very competitive</option>
+			<option value="sometimes competitive">sometimes competitive</option>
+			<option value="not competitive">not competitive</option>
+			<option value="don't know">don't know</option>	
+		    </select>
+		</div>	
+		<br><br>
+
+		<div>
+			<label><b>25. Please grade the eBay website on the overall content.</b></label><br><br>
+			<select name="user_garde">
+			<option value="">Choose here</option>
+			<option value="excellent">excellent</option>
+			<option value="good">good</option>
+			<option value="average">average</option>	
+			<option value="poor">poor</option>
+			<option value="undecided">undecided</option>
+		    </select>
+		</div>	
+		<br><br>
+
+		<div>
+			<input type="submit" name="SUBMIT">
+		</div>
+	</form> 
+
+</body>
+</html>
